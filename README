@@ -5,3 +5,5 @@ $ sudo apt install libpcsclite-dev
 
 The python-pcsclite wrapper can be found here:
 https://sourceforge.net/projects/python-pcsclite/
+
+These were tested with an Identiv uTrust 3700 F
