@@ -1,0 +1,7 @@
+These samples use pcsc-lite
+
+To install on ubuntu:
+$ sudo apt install libpcsclite-dev
+
+The python-pcsclite wrapper can be found here:
+https://sourceforge.net/projects/python-pcsclite/
