@@ -1,9 +1,16 @@
-These samples use pcsc-lite
+Smart Card Reader Samples
 
-To install on ubuntu:
+These were tested with an Identiv uTrust 3700 F and the HostCardEmulator
+app here: https://github.com/CIS-Mobile/HostCardEmulator
+
+The C and Python samples use pcsc-lite and were tested on Ubuntu, while
+the Java sample uses the javax.smartcardio library and was tested on both
+macOS and Ubuntu.
+
+To install pcsc-lite on ubuntu:
 $ sudo apt install libpcsclite-dev
 
 The python-pcsclite wrapper can be found here:
 https://sourceforge.net/projects/python-pcsclite/
-
-These were tested with an Identiv uTrust 3700 F
+and can be installed with:
+$ sudo apt install ./python3-pcsclite_0.18-1_amd64.deb
